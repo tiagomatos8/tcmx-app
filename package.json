@@ -2,7 +2,7 @@
   "name": "tcmx-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://tiagomatos8.github.io/tcmx-page",
+  "homepage": "https://tiagomatos8.github.io/tcmx-page",
   "dependencies": {
     "bulma": "^0.7.5",
     "node-sass": "^4.12.0",
