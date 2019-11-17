@@ -1,12 +1,13 @@
 import React from "react";
-import NavBar from "../NavBar/NavBar";
+
+import './Hero.scss';
 
 const Hero = () => {
   return (
-    <section className="hero is-fullheight has-background">
+    <section className="Hero-component hero is-fullheight has-background">
 
         <div className="hero-head">
-            <NavBar />
+            {/* We could use navbar here, but navbar component it will be on App component */}
         </div>
 
         <img className="hero-background is-transparent" src={require("../../assets/hero-background_3.jpg")} alt="Fill Murray" />

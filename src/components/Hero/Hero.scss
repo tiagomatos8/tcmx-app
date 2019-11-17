@@ -1,0 +1,24 @@
+.Hero-component {
+    .hero {
+        &.has-background {
+            position: relative;
+            overflow: hidden;
+        }
+        &-background {
+            position: absolute;
+            object-fit: cover;
+            object-position: center center;
+            width: 100%;
+            height: 100%;
+            &.is-transparent {
+            opacity: 0.3;
+            }
+        }
+    }
+}
+
+.heading {
+  .subtitle {
+    margin: 20px 0;
+  }
+}
