@@ -17,9 +17,9 @@ const Hero = () => {
                 <p className="title is-size-1">
                     TIAGO MATOS
                 </p>
-                <p className="subtitle">
-                    <div>FRONT END ENGINEER</div>
-                    <div>DEVOPS APPRENTICE</div>
+                <p className="subtitle is-flex">
+                    <span>FRONT END ENGINEER</span>
+                    <span>DEVOPS APPRENTICE</span>
                 </p>
             </div>
         </div>
@@ -28,19 +28,23 @@ const Hero = () => {
             <section className="section">
                 <div className="container">
                     <div className="columns">
-                    <div className="column is-narrow">
-                        <a className="button is-dark is-outlined is-large" href={require('../../assets/Resume-TiagoMatos.docx.new.pdf')}>View Resume</a>
-                    </div>
-                    <div className="column is-narrow">
-                        <a className="button is-dark is-outlined is-large" href={require('../../assets/Resume-TiagoMatos.docx.new.pdf')} download>Download Resume</a>
-                    </div>
-                    <div className="column">
-                        <a className="button is-large" href="https://github.com/tiagomatos8">
-                        <span className="icon is-small is-left">
-                            <i className="fab fa-github"></i>
-                        </span>
-                        </a>
-                    </div>
+
+                        <div className="column is-narrow">
+                            <a className="button is-dark is-outlined is-large" href={require('../../assets/Resume-TiagoMatos.docx.new.pdf')}>View Resume</a>
+                        </div>
+
+                        <div className="column is-narrow">
+                            <a className="button is-dark is-outlined is-large" href={require('../../assets/Resume-TiagoMatos.docx.new.pdf')} download>Download Resume</a>
+                        </div>
+
+                        <div className="column">
+                            <a className="button is-large" href="https://github.com/tiagomatos8">
+                                <span className="icon is-small is-left">
+                                    <i className="fab fa-github"></i>
+                                </span>
+                            </a>
+                        </div>
+
                     </div>
                 </div>
             </section>
